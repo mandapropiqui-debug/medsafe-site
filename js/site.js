@@ -149,3 +149,5 @@ var es=Array.prototype.slice.call(em.querySelectorAll('span'));if(!es.length)es=
 var fs=parseFloat(getComputedStyle(em).fontSize);em.style.fontSize=(fs*w1/w2).toFixed(2)+'px'}
 function go(){fit();requestAnimationFrame(fit)}
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);window.addEventListener('load',go);window.addEventListener('resize',go);go()})();
+
+;(function(){try{history.scrollRestoration='manual'}catch(e){}function top(){window.scrollTo(0,0);try{document.body.scrollIntoView({block:'start',behavior:'instant'})}catch(e){}}if(!location.hash){top();window.addEventListener('load',top);window.addEventListener('pageshow',top);setTimeout(top,120)}})();

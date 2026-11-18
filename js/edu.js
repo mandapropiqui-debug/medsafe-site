@@ -111,8 +111,8 @@ if(chs.length){
 }
 
 /* ---------- instrutores: sanfona ---------- */
-var fds=$$('.fd');
-fds.forEach(function(f,i){function op(){fds.forEach(function(x){var on=x===f;x.classList.toggle('on',on);x.setAttribute('aria-expanded',on)})}f.addEventListener('click',op);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();op()}});f.addEventListener('mouseenter',function(e){if(window.matchMedia('(hover:hover)').matches)op()})});
+$$('.folds').forEach(function(box){var fds=Array.prototype.slice.call(box.querySelectorAll('.fd'));fds.forEach(function(f){function op(){fds.forEach(function(x){var on=x===f;x.classList.toggle('on',on);x.setAttribute('aria-expanded',on)})}f.addEventListener('click',op);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();op()}});f.addEventListener('mouseenter',function(e){if(window.matchMedia('(hover:hover)').matches)op()})})});
+var gch=$$('.gchips .chip');gch.forEach(function(c){c.addEventListener('click',function(){gch.forEach(function(x){var on=x===c;x.classList.toggle('on',on);x.setAttribute('aria-selected',on)});$$('.folds').forEach(function(b){b.hidden=b.dataset.g!==c.dataset.g})})});
 
 /* ---------- revalida: pista ---------- */
 var pp=$('#pp'),runner=$('#runner');

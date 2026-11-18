@@ -428,3 +428,12 @@ footer .fb{margin-top:0}
 @media(max-width:760px){.enum{display:grid;grid-template-columns:1fr 1fr;gap:12px}.enum div{flex-direction:column;align-items:flex-start;gap:2px}.enum b{white-space:nowrap;font-size:clamp(38px,11.5vw,48px)}.enum span{font-size:13px}}
 
 .ec .eig.off{opacity:.4;filter:saturate(.5);cursor:not-allowed;pointer-events:none;animation:none}
+
+/* ===== completar com o site original ===== */
+.eb{display:block;font-weight:600;font-size:14px;letter-spacing:.01em;color:var(--teal);margin-bottom:10px}
+.dk .eb{color:var(--aqua)}
+.depo{padding:80px 0}
+.depo .hd{max-width:none;margin-bottom:0}
+.depo .hd h2{max-width:22ch}
+.depo .lead{color:var(--ink)}
+@media(max-width:760px){.depo{padding:60px 0 48px}.depo .hd h2{font-size:clamp(28px,8vw,34px)}.depo .lead{font-size:14.5px;line-height:1.5}.depo .acc{margin-top:18px!important;height:auto!important;gap:8px}.eb{font-size:13px;margin-bottom:8px}}

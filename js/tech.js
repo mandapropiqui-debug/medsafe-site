@@ -18,7 +18,7 @@ $$('.rn b').forEach(function(b){var v=+b.dataset.n,dc=+b.dataset.d||0,fmt=functi
 /* beneficios */
 var bt=$$('.tbt .chip'),bp=$$('.tbp');bt.forEach(function(c){c.addEventListener('click',function(){bt.forEach(function(x){var on=x===c;x.classList.toggle('on',on);x.setAttribute('aria-selected',on)});bp.forEach(function(p){p.classList.toggle('on',p.dataset.b===c.dataset.b)})})});
 /* demo */
-var f=$('#dform'),pv=$('#dpv');if(f){function msg(){var d=new FormData(f),n=(d.get('n')||'').trim(),i=(d.get('i')||'').trim(),c=(d.get('c')||'').trim(),L=['Olá, equipe Medsafe!'];if(n)L.push('Meu nome é '+n+'.');if(i)L.push('Instituição: '+i+'.');if(c)L.push('Cidade: '+c+'.');L.push('Interesse: '+d.get('t')+'.');L.push('Gostaria de agendar uma demonstração. Obrigado!');return L}
+var f=$('#dform'),pv=$('#dpv');if(f){function msg(){var d=new FormData(f),n=((d.get('n')||'')+' '+(d.get('s')||'')).trim(),i=(d.get('i')||'').trim(),c=(d.get('c')||'').trim(),ph=(d.get('p')||'').trim(),em=(d.get('e')||'').trim(),ms=(d.get('m')||'').trim(),L=['Olá, equipe Medsafe!'];if(n)L.push('Meu nome é '+n+'.');if(i)L.push('Instituição: '+i+'.');if(c)L.push('Cidade: '+c+'.');if(ph)L.push('Telefone: '+ph+'.');if(em)L.push('E-mail: '+em+'.');L.push('Interesse: '+d.get('t')+'.');if(ms)L.push(ms);L.push('Gostaria de agendar uma demonstração. Obrigado!');return L}
  function up(){pv.textContent=msg().join('\n')}f.addEventListener('input',up);f.addEventListener('change',up);up();
  f.addEventListener('submit',function(e){e.preventDefault();var n=f.elements.n;if(!n.value.trim()){n.focus();n.classList.add('bad');return}n.classList.remove('bad');window.open('https://wa.me/5586988839921?text='+encodeURIComponent(msg().join('\n')),'_blank','noopener')})}
 })();

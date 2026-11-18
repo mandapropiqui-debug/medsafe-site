@@ -19,3 +19,7 @@
 .cfr input,.cfr select,.cfr textarea{font:inherit;font-weight:500;padding:13px 14px;border-radius:14px;border:1.5px solid rgba(12,29,72,.2);background:#fff;color:var(--navy);width:100%}
 .cfr input:focus,.cfr select:focus,.cfr textarea:focus{outline:2px solid #209aa2;outline-offset:1px}
 @media(max-width:760px){.lt2 em{font-size:13.5px}.lt2 b{font-size:19px}}
+.cimg{display:block;width:min(70%,295px);height:auto;border-radius:18px;margin-top:22px}
+.cfr{grid-template-columns:1fr}
+@media(min-width:560px){.cfr{grid-template-columns:1fr 1fr}.cfr .fw,.cfr .pv,.cfr .btn{grid-column:1/-1}}
+@media(max-width:760px){.cimg{width:min(58%,220px);margin-top:16px}}

@@ -105,7 +105,7 @@
 .e-inst{padding:104px 0}
 .folds{display:flex;flex-direction:column;gap:10px}
 .fd{position:relative;overflow:hidden;border-radius:var(--r);background:var(--navy2);height:76px;cursor:pointer;transition:height .9s var(--ease);isolation:isolate;color:#fff}
-.fd.on{height:min(120vw,520px);cursor:default}
+.fd.on{height:min(125vw - 55px,575px);cursor:default}.folds{max-width:460px;margin-inline:auto}
 .fd .po{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:saturate(.8) brightness(.75);transition:filter .6s,transform 1.2s var(--ease)}
 .fd.on .po{filter:none}
 .fd .mono{position:absolute;inset:0;display:grid;place-items:center;font-weight:800;font-size:120px;color:rgba(255,255,255,.14);background:linear-gradient(135deg,#324980,#168189)}
@@ -115,7 +115,7 @@
 .fd .lab em{display:block;margin-top:8px;font-style:normal;font-weight:700;font-size:13px;color:var(--or2)}
 .fd:not(.on) .lab{bottom:50%;transform:translateY(50%)}
 .fd:not(.on) .lab em{display:none}
-@media(min-width:900px){.folds{flex-direction:row;height:min(66vh,560px)}.fd{flex:0 0 96px;height:auto;transition:flex-grow .9s var(--ease)}.fd.on{flex-grow:1;height:auto}.fd:not(.on) .lab{writing-mode:vertical-rl;transform:rotate(180deg);left:50%;margin-left:-.6em;bottom:18px;top:auto;right:auto;white-space:nowrap}.fd:not(.on) .lab b{display:inline;font-size:16px;margin-bottom:.5em}.fd:not(:hover):not(.on) .po{filter:saturate(.7) brightness(.6)}}
+@media(min-width:900px){.folds{--fh:min(66vh,560px);flex-direction:row;justify-content:flex-start;height:var(--fh);max-width:none}.fd{flex:0 0 auto;width:96px;height:auto;transition:width .9s var(--ease)}.fd.on{width:calc(var(--fh)*.8);height:auto}.fd:not(.on) .lab{writing-mode:vertical-rl;transform:rotate(180deg);left:50%;margin-left:-.6em;bottom:18px;top:auto;right:auto;white-space:nowrap}.fd:not(.on) .lab b{display:inline;font-size:16px;margin-bottom:.5em}.fd:not(:hover):not(.on) .po{filter:saturate(.7) brightness(.6)}}
 /* revalida */
 .e-rev{padding:104px 0}
 .e-rev .w{display:grid;gap:44px}
@@ -233,3 +233,6 @@
 @keyframes regin{to{opacity:1}}
 .pi .out{fill:none}
 .pi .pin text{paint-order:stroke;stroke:#eef4f5;stroke-width:5px}
+
+.gchips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}.gchips .chip small{font-weight:700;opacity:.7;font-size:12px}
+.folds[hidden]{display:none}
