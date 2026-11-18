@@ -1,0 +1,18 @@
+# Medsafe
+
+> A Medsafe é uma empresa brasileira de tecnologia e educação em saúde, com sede de atuação no Piauí. Integra telemedicina (ECG e imagens DICOM em tempo real), linha de cuidados para infarto (IAM) e AVC, georreferenciamento de ambulâncias, inteligência artificial para estratificação de risco e educação continuada para profissionais de saúde.
+
+Números institucionais: 7,5 mil pacientes atendidos, mais de 700 trombólises realizadas, 10 mil profissionais capacitados em emergências cardiovasculares e mais de 50 hospitais integrados ao sistema de telemedicina.
+
+## Páginas
+- [Institucional](https://medsafebrasil.com.br/): missão, números, propósitos e casos de sucesso.
+- [Educação](https://medsafebrasil.com.br/education): cursos TECA, ECG Master, Academy Core Anatomia Humana, Método Pocus e HandsON Medsafe.
+- [Tecnologia](https://medsafebrasil.com.br/tech): telemedicina, linha de cuidados, georreferenciamento e IA.
+- [Revalida](https://medsafebrasil.com.br/revalida/): curso preparatório 100% EAD com estações práticas simuladas.
+- [Educação Continuada](https://medsafebrasil.com.br/educacao-continuada/): programa de qualificação de profissionais da saúde pública do Piauí.
+- [Primeira Infância](https://medsafebrasil.com.br/primeira-infancia/): aplicativo de monitoramento da saúde infantil.
+- [Contato](https://medsafebrasil.com.br/contato): WhatsApp comercial (86) 98883-9921, telefone (86) 98822-2024, e-mail medsafe@medsafebrasil.com.br e Instagram @medsafebrasil.
+
+## Optional
+- [Portal do aluno](https://ensino.medsafebrasil.com.br/login)
+- [Instagram](https://www.instagram.com/medsafebrasil/)
