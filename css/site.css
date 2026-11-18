@@ -394,3 +394,37 @@ footer .fb{margin-top:0}
 .sf,.tw em.sf,.cases .chd h2 em{font-family:Montserrat,system-ui,sans-serif!important;font-style:normal!important;font-weight:800!important;letter-spacing:-.025em!important;-webkit-text-stroke:0!important;padding-bottom:0}
 .sf{line-height:inherit}
 .who h2 .ultra,.who h2 em.sf{font-weight:900!important;letter-spacing:-.035em!important}
+
+/* ===== casos de sucesso: esteira de produtos ===== */
+.esteira{padding-top:72px;padding-bottom:72px}
+.egrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.ec{position:relative;display:flex;flex-direction:column;gap:14px;padding:22px;border-radius:22px;background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.05));border:1px solid rgba(255,255,255,.2);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);transition:transform .6s var(--ease),background .6s}
+.ec:hover{transform:translateY(-4px);background:linear-gradient(160deg,rgba(255,255,255,.2),rgba(255,255,255,.08))}
+.etag{align-self:flex-start;font-weight:700;font-size:12.5px;line-height:1;padding:7px 12px;border-radius:999px;color:var(--navy);background:var(--aqua)}
+.etag.o{background:linear-gradient(115deg,#e49744,#f7c894)}
+.elogo{border-radius:14px;overflow:hidden;background:#fff;aspect-ratio:3.25/1;display:grid;place-items:center}
+.elogo img{width:100%;height:100%;object-fit:cover}
+.ec p{font-size:15px;line-height:1.5;color:var(--ice);opacity:.92;flex:1}
+.ec .eig{align-self:stretch;justify-content:center;height:46px;font-size:14px}
+.enum{display:flex;gap:56px;align-items:flex-end;margin-top:44px;flex-wrap:wrap}
+.enum div{display:flex;align-items:center;gap:16px}
+.enum b{font-weight:800;font-size:clamp(44px,5.4vw,78px);line-height:1;letter-spacing:-.04em;background:linear-gradient(115deg,#e49744,#f7c894,#e49744);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:btnslide 5s ease-in-out infinite alternate}
+.enum span{font-weight:600;font-size:15px;line-height:1.25;color:var(--ice2)}
+@media(max-width:1060px){.egrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){
+.esteira{padding-top:60px;padding-bottom:44px}
+.egrid{grid-template-columns:repeat(2,1fr);gap:10px;margin-top:22px}
+.ec{padding:12px;gap:9px;border-radius:18px}
+.etag{font-size:10.5px;padding:6px 9px}
+.elogo{border-radius:10px}
+.ec p{font-size:12.5px;line-height:1.4}
+.ec .eig{height:38px;font-size:12px;padding:0 8px;gap:6px}
+.ec .eig .ic{width:16px;height:16px}
+.enum{gap:18px;margin-top:26px;flex-wrap:nowrap}
+.enum div{gap:10px}
+.enum b{font-size:clamp(34px,10.5vw,44px)}
+.enum span{font-size:12.5px}
+}
+@media(max-width:760px){.enum{display:grid;grid-template-columns:1fr 1fr;gap:12px}.enum div{flex-direction:column;align-items:flex-start;gap:2px}.enum b{white-space:nowrap;font-size:clamp(38px,11.5vw,48px)}.enum span{font-size:13px}}
+
+.ec .eig.off{opacity:.4;filter:saturate(.5);cursor:not-allowed;pointer-events:none;animation:none}
