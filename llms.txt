@@ -6,12 +6,12 @@ Números institucionais: 7,5 mil pacientes atendidos, mais de 700 trombólises r
 
 ## Páginas
 - [Institucional](https://medsafebrasil.com.br/): missão, números, propósitos e casos de sucesso.
-- [Educação](https://medsafebrasil.com.br/education): cursos TECA, ECG Master, Academy Core Anatomia Humana, Método Pocus e HandsON Medsafe.
+- [Educação](https://medsafebrasil.com.br/education): cursos TECA, ECG Master, Academy Core Anatomia Humana, POCUS Medsafe e HandsON Medsafe.
 - [Tecnologia](https://medsafebrasil.com.br/tech): telemedicina, linha de cuidados, georreferenciamento e IA.
 - [Revalida](https://medsafebrasil.com.br/revalida/): curso preparatório 100% EAD com estações práticas simuladas.
 - [Educação Continuada](https://medsafebrasil.com.br/educacao-continuada/): programa de qualificação de profissionais da saúde pública do Piauí.
 - [Primeira Infância](https://medsafebrasil.com.br/primeira-infancia/): aplicativo de monitoramento da saúde infantil.
-- [Cursos](https://medsafebrasil.com.br/cursos/): TECA A, Método Pocus, ECG Master, Academy Core Anatomia Humana e HandsON, cada um com página própria em /cursos/.
+- [Cursos](https://medsafebrasil.com.br/cursos/): TECA A, POCUS Medsafe, ECG Master, Academy Core Anatomia Humana e HandsON, cada um com página própria em /cursos/.
 - [Unidades beneficiadas](https://medsafebrasil.com.br/educacao-continuada/#unidades): 12 unidades hospitalares em 6 cidades do Piauí, com página em /treinamento/ e /cidade/.
 - [Primeira Infância Piauí](https://medsafebrasil.com.br/primeira-infancia-piaui/): versão do aplicativo para o programa do estado.
 - [Termos de serviço](https://medsafebrasil.com.br/termos-de-servico/) e [Políticas de privacidade](https://medsafebrasil.com.br/politica-de-privacidade/).
